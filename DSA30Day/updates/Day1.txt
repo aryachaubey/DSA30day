@@ -1,0 +1,32 @@
+Hi It's Day1 and here's what I learned :
+
+OOP :  Object Oriented programming 
+we've learned about ->
+(i) classes : Classes are a named group of properties and functions that acts 
+              as a template for creating objects .It is basically a logical construct that helps
+              building objects.
+
+(ii) Objects : Objects are very much like a physically entity that occupies some real space(memory) in the computer,
+               while classes don't as they are just a structure or set of rules that we are using to make these objects.
+
+
+Syntax for creating it  : 
+
+
+             class - >  class Student {
+                         int rno,
+                         int marks             //This is a class with two properties rno, and marks
+
+
+               }    
+
+            object -> 
+
+                    Student arya = new Student();      // this is how you create an object from an existing class in this case which is Student
+
+
+ Here , Student() is a constructor which is a special type of function which is called or invoked whenever an onject is created .
+
+
+
+        
