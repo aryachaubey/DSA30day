@@ -1,4 +1,4 @@
-Hi It's Day1 and here's what I learned :
+Hi It's Day1 and here's what I've learned :
 
 OOP :  Object Oriented programming 
 we've learned about ->
