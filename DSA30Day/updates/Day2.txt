@@ -1,0 +1,64 @@
+Hi So it's the Second Day and here's what I 've Learned :
+
+So previously we've discussed about Constructors  - So they are a special type of function that has an exact name like that of a class and they are generally 
+called whenever an object is been created  :
+
+
+  SO for example : 
+
+  we create an object of class Student : 
+
+   It would go like  ->            Student sia = new Student();
+
+Now here Student is a constructor that is been called of while we create an object sia -> 
+ But do you know ? what type of Constructor it is -- > 
+
+So its a Default constructor and it is called so because it does not have any parameteres to it.
+
+and if we have parameters inside the constructor it becomes parametereized constructor .
+
+
+    Let's understand it via an example : 
+
+       class Automobile  { 
+ 
+         int wheels;          // So these are two properties that we have initialized for an object .
+         int doors; 
+
+
+      Automobile ()  {
+        this.wheels  = 2;         // So this is a default constructor that when called will set the values of wheels and doors for the particular created object to 
+                                     2 and 0 respectively.
+        this.doors = 0;
+        }
+              
+
+       Automobile (int wheels, int doors)  {               // and this is a parametreized constructor that will set the values of wheels and doors to whatever values are passed them
+                                                        // as their parameters
+        this.wheels = wheels;             
+        this.doors = doors;
+} 
+
+}
+
+
+
+
+
+
+     -----> playing with constructors 
+
+
+   let's create an object of class Automobile - We' do it two times
+ (i) One with Default constructors
+ (ii) One with parameterized constructor
+
+        -> Default constructor :    Autombile apache = new Automobile();
+
+sout (apache.wheels)  ; 
+output: 2
+
+       -> Parameterized constructor : Automobile Sonet = new Automobile(4,4);
+ sout(Sonet.doors);
+output: 4 
+
