@@ -1,0 +1,67 @@
+Hi it's Day3 and Here's what I've learned :
+
+So Today we have learned about some keywords that we might encounter while we are implementing OOP 
+
+they are  -- > 
+
+(i) new Keyword
+(ii) this Keyword
+(iii)final Keyword 
+
+and Finally about Wrapper Classes  -  
+
+So what is a Keyword First of All --- 
+
+A keyword is something that is pre-defined with their own functionalities in every language.
+
+(A) --> new Keyword 
+        ____________
+  :  A new Keyword is a keyword that is used to create a new object of a particular class
+
+   For Example  :  There is a class named Human  ->
+
+
+               new
+                |
+                     |__________|
+      Sia <----------|   Human  |
+                     |          |             <<- Class
+                     |__________| 
+                           |
+                           |   -> new 
+                           |
+                          \_/                              : This is how new keyword helps classes in creating objects 
+                  Object :  Arya 
+
+(B) --> this Keyword 
+        _____________
+
+ :  this keyword is used to replace the object created from a class inside the definition of a class when we are trying to access
+    the property of that class
+
+      for example : 
+
+
+    Class Student (){
+
+    int marks ;
+    int rno; 
+
+    Studnet (){  
+        this.marks = 90;
+        this.rno= 45;
+     }
+
+}
+
+ Explanation : Here's what happening is that when we will create an object of the Student Class 
+
+  like 
+   Student Arya  = new Student();
+
+then automically inside the Student Constructor or the special function the object will replace the place of this inside the 
+constructor.
+ 
+ 
+  
+            
