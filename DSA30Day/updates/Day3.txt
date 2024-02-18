@@ -33,6 +33,21 @@ A keyword is something that is pre-defined with their own functionalities in eve
                           \_/                              : This is how new keyword helps classes in creating objects 
                   Object :  Arya 
 
+more important things about new keyword  :  
+
+  --  So when we create a object with a new keyword so we equate that refeence variable to anyb other variable which, and the special thing is this that we can access that created object from both the reference variables because both the reference variable are pointing to the same object in the heap
+
+   Example - 
+
+Student one  = new Student()
+one = two ;
+
+one.name = "shogun";
+
+sout(two.name);
+ Output : shogun
+
+------------------------------------------------------------------------------------------------------------------------
 (B) --> this Keyword 
         _____________
 
@@ -62,6 +77,39 @@ A keyword is something that is pre-defined with their own functionalities in eve
 then automically inside the Student Constructor or the special function the object will replace the place of this inside the 
 constructor.
  
- 
+ ----------------------------------------------------------------------------------------------------------------------
+
+ (C) ->  final Keyword 
+
+Now final keyword is used and placed as a suffix while creating a variable so that the value of that variable cannot be modified .
+But it is only valid in the case of primitive datatypes  
+
+ Example :  
+   final int a = 20;
+   a = 30;   ---  // this line will give me an error 
+
+ But when we are using final keyword with any non-primitive datatypes like classes which acts just like  a datatype where you can create object's reference variable then we can modify the value of the refence variable of the object .
+
+For Example  : 
+
+ final Student arya = new Student();
+  arya.marks = 23;
+ // butr you cannot reassign this object to any other object just like we did in line 89 .
+
+ ------------------------------------------------------------------------------------------------------------------------
+
+(D)  ->   Wrapper Classes  : 
+
+Wrapper classes are some pre-defined classes in the Java Language that has it pre-defined functions and properties which we 
+can use with the help of dot or access notation.
+
+One such Wrapper Class is Integer
+
+ Integer num = new Integer();
+ num = 45;
+
+Now num acts as an object of the Wrapper class Integer, and if we want to access any property or function we can just write 
+a . and we can access the properties.
+
   
             
