@@ -1,0 +1,46 @@
+Hi It's Day4 and Here's what I've learned  : 
+
+One such topic taht we studied today is about Garbage Collection : 
+
+So garbage in a programming languge is something which is just taking some space in the memory but is not having any thing inside 
+it or we can say that an object to which no reference variable is pointing , such objects are garbage . 
+
+ So in languages like C++, there can be manual garbage collection , i.e they uses the concept of Destructor.
+
+but Java provides automatic garbage colection with the help of something called Garbage Collector .
+
+So whenever Garbage collection happens it is achieved using a statement which is called Finalization.
+
+So It just frees the memory when objects are destroyed :
+
+ In Java we cannot destroy the objects manually : 
+
+But we can specify what to do when an Object is destroyed
+
+How does it work : ? 
+
+It goes like that whenever the java is doing the Garbage Collection before removing the objects and its stuff just
+before that it calls the finalize method which is
+being created inside a class only .
+
+---------------------------------------------------
+
+Then we have learned about packages  : 
+
+ Packages  : 
+
+Packages are basically just containers that have classes inside it into compartments 
+
+ com.arya means  - > inside com folder there is an  arya folder .
+
+
+Why packages are used ?
+
+Use case :  If we want to create two classes with same name welcome we cannot do it inside a single package name , 
+So what we can do is we can just create an another package and can make a another class welcome over there also , then we can have 
+two classes with same name that can be run for different things or whatever we want to do from it .
+
+One More interesting things about package is that we can access the classes of other package through any other package by 
+importing that package 
+
+
