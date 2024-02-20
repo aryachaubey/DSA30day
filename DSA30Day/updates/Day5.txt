@@ -1,0 +1,4 @@
+Hi it's Day5 and this is what I've learned  : 
+
+static :  static variables are those variables that are the properties that are not directly related to an object 
+          but are common to all the objects created with the help of particular class.
