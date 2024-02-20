@@ -29,3 +29,6 @@ Okay so - if we want to access a non-static data inside of a static function we 
 but why we cannot use non-static inside of a static one : 
 
 It is because static data are object independent and non-static data are object dependent.
+
+
+---- But we can use a static data/member into a non- static one
