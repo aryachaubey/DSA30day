@@ -20,3 +20,12 @@ why we use static in psvm ?
 
 the static in the psvm statment simply means that we can access or use the main function or our entry point of any any java programm without creating any object of it , because as we know in classes we first have to create objects of that class to use their properties and functions .
 
+One more thing about static is that wherever static keyword is used with a function you cannot use function inside it which 
+is not static.
+
+
+Okay so - if we want to access a non-static data inside of a static function we first have to specify the class to which that  non static data belongs to and then have to create an object for it first.
+
+but why we cannot use non-static inside of a static one : 
+
+It is because static data are object independent and non-static data are object dependent.
