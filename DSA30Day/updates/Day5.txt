@@ -3,5 +3,20 @@ Hi it's Day5 and this is what I've learned  :
 static :  static variables are those variables that are the properties that are not directly related to an object 
           but are common to all the objects created with the help of particular class.
 
-to access a static variable correctly we use the class name and that static 
-variable property.
+--> to access a static variable correctly we use the class name and that 
+    static variable property.
+
+note :  static variables are common to everyone and they don't depend upon 
+       any objects , it can still work if there are Zero objects being 
+       created.
+
+
+A very important use case of the static keyword is the - public static void main()
+
+why we use static in psvm ? 
+
+ Because in java we deal with classes and if we want to do anything or
+ access any function or property in that class we have to create an object  for it , but this does'nt goes with the static keyword .
+
+the static in the psvm statment simply means that we can access or use the main function or our entry point of any any java programm without creating any object of it , because as we know in classes we first have to create objects of that class to use their properties and functions .
+
