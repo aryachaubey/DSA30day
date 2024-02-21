@@ -1,2 +1,7 @@
 Hi its Day six and here's what I've  learned :
 
+One more thing about static is that :
+
+as we know static functions and properties are not dependent upon the objects that implies that we cannot use the this keyword in it , as if there will be no objects there than there will be no replacement of any object with the this keyword.
+
+
