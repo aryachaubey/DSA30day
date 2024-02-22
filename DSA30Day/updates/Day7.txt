@@ -1,0 +1,20 @@
+Hi this is Day 7 and here's what I've learned  : 
+
+understanding about - 
+
+System.out.println();
+
+System - is a class
+out - is a variable
+println - is the function 
+
+Singleton Class - Singleton classes are those classes from which you can only create one 
+                  object or instance.
+
+If we want developers not to create more objects than one from a singleton class then we need to stop 
+them from using or accessing the Constructors.
+
+-- and we can do so by making the Constructor private that implies we cannot use it in any another class.
+
+
+
