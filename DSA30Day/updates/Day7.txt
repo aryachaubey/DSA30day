@@ -16,6 +16,48 @@ them from using or accessing the Constructors.
 
 -- and we can do so by making the Constructor private that implies we cannot use it in any another class.
 
+In short , Singleton classes basically means that no matter how many instance variables you create from a Singleton Class it will only point to a single object in the memory.
+
+
+
+For Example -  
+
+
+public class SingletonClass { 
+
+   string name;
+
+   private SingletonClass() { 
+
+    }                             // private means ut cannot be used anywhere now 
+
+
+   private SingletonClass instance ; 
+
+  public SingletonClass getInstance()  { 
+  if(instance == null ) {
+   SingletonClass = new SingletonClass();
+  }
+   return SingletonClass;
+  }
+
+}
+
+public static void main (){
+
+ SingletonClass obj1 =  SingletonClass.getInstance();
+ obj1.name =   "arya";
+
+ SingletonClass obj2 = SingletonClass.getInstance();
+
+Sout(obj1.name);
+Sout(obj2.name);
+
+ output : arya
+          arya
+
+ - -- - -This implies that both instance variables obj1 and obj2 are pointing towards the same object in the memory , hence no more new objects are being created , and that makes SingletonClass a Singleton class.
+
 
 
 
