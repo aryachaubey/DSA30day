@@ -27,4 +27,13 @@ Properties of OOP --
 ---> So if the base class have some properties than the child class can have access to those properties.
 but new properties that are being created in the child class cannot be accessed via the base class(parent class).
 
+
+ Now the only way using which we can easily incorprate the properties of one class to an another class is through extends 
+ keyword .
+
+   class Child extends Base{
+   } 
+   ---> This simply means that Child class can have the access to all the properties of the Base class with some of it own 
+         properties.
+
  
