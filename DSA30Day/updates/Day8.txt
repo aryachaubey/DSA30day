@@ -20,4 +20,10 @@ Properties of OOP --
     Childrens    :  Parenets have some properties that children 
                     inherit from them to make use of those properties.
 
+
+---> So there is a concept of Base class and child class in oop
+
+
+So if the base class have some properties than the child class can have access to those properties.
+
  
