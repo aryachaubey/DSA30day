@@ -1,0 +1,23 @@
+Hi its's Day8 and Here's what I've learned : 
+
+ OOP --  So OOP stands for Object-Oriented programming  which is a type of programming in which we divide our code into chunks 
+         or parts to make it more accessible and more managable that helps us to do debbuging and all other stuffs more efficiently.
+
+Properties of OOP --
+
+ There are basically 4 major properties of Object-Orieneted programming 
+
+  (i) Inheritance 
+  (ii) Polymorphism
+  (iii)Encapsulation
+  (iv)Abstraction
+
+  Inheritance :
+
+   parents 
+     |
+     |
+    Childrens    :  Parenets have some properties that children 
+                    inherit from them to make use of those properties.
+
+ 
