@@ -1,1 +1,14 @@
+Hi it's Day 9 and here's what I've learned  :
+
+One more thing about inheritance : 
+
+we cannot use those properties even from the Base or the parent class who are already set to private , private basically means that you can access those properties only inside that file only and nowhere else.
+
+
+
+Note : ---Child class can access the extra vraibles or properties of the Base class but vice-versa is not possible. 
+
+
+Important :  One very important thing to understand is this that it depends upon the type of the reference varible but not on the object that determines which members or properties can be accessed.
+
 
