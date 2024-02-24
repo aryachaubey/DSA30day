@@ -1,4 +1,4 @@
-Hi it's Day 9 and here's what I've learned  :
+ classHi it's Day 9 and here's what I've learned  :
 
 One more thing about inheritance : 
 
@@ -19,5 +19,7 @@ super keyword :
   which it is been derived we  use super class
 
 -- It is used more in the case of multi-level inheritance.
+
+Every class that you create has object class as its super class, that means object class is at the top of the heirarchy.
 
 
