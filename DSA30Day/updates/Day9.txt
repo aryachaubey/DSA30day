@@ -11,4 +11,13 @@ Note : ---Child class can access the extra vraibles or properties of the Base cl
 
 Important :  One very important thing to understand is this that it depends upon the type of the reference varible but not on the object that determines which members or properties can be accessed.
 
+------------------
+
+super keyword : 
+
+ -- whenever a subclass tries to refer to the parent class from 
+  which it is been derived we  use super class
+
+-- It is used more in the case of multi-level inheritance.
+
 
