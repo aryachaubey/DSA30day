@@ -3,9 +3,10 @@ Hi this is Day 10 and here's what I've learned :
 Types of Inheritance  :
 
  (i) Single inheritance : In this one class extends another class.
+     __________________
 
  (ii) Multi-level inheritance : In this , One class can inherit the properties of a Base/parent class 
-                                and also becomes the parent class for its child class in the below 
+      ________________________  and also becomes the parent class for its child class in the below 
                                 heirarchy.
 
                      Bipadelerians 
@@ -16,4 +17,15 @@ Types of Inheritance  :
                          |
                         Males
           
-(iii)
+(iii) Multiple inheritance : It means when one class is extending more than one  classes.
+      ____________________
+
+ note : Multiple inheritance is not supported in java.
+
+ reason  : If more than two classes have the same variable with different values and if we create an object of the child 
+           class and try to access that common variable in the parent class , a confusion will be created that which data or 
+           value should be displayed. 
+
+
+ (iv) Hierarchial inheritance : One class is inherited by many classes .
+      _______________________
