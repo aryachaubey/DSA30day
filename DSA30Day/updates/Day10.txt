@@ -1,0 +1,19 @@
+Hi this is Day 10 and here's what I've learned : 
+
+Types of Inheritance  :
+
+ (i) Single inheritance : In this one class extends another class.
+
+ (ii) Multi-level inheritance : In this , One class can inherit the properties of a Base/parent class 
+                                and also becomes the parent class for its child class in the below 
+                                heirarchy.
+
+                     Bipadelerians 
+                         |
+                         |
+                     Homosapiens
+                         |
+                         |
+                        Males
+          
+(iii)
