@@ -29,3 +29,10 @@ Types of Inheritance  :
 
  (iv) Hierarchial inheritance : One class is inherited by many classes .
       _______________________
+
+ (V) Hybrid inheritance : It is a comination of single and multiple inheritance .
+     __________________                    
+                          note : Java also does not support this.
+
+  but , we can achieve the functionality or similar fnctionality of Hybrid and multiple inheritance using the concept called 
+        interfaces.
