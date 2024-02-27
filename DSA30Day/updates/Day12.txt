@@ -1,0 +1,28 @@
+Hi it's day 12 and here's what I've learned  :
+
+Types of Polymorphism : 
+
+--> Compile-time or Static polymorphism : This type of polymorphism is achieved via method overloading.
+  -------------------------------------
+
+  what is mthod overloading ? 
+
+  --> method overloading simply means that when a class have multiple or more than  one function with a same name but different 
+      orders or parameters .
+
+
+ For example - 
+
+  Box(){
+  }
+
+  Box(int a , int b){
+    
+  }
+
+  // SO here are two methods or functions that have the same name but different parameters , one is having no parameter while the other is having 
+     two parameters.
+
+
+  --  This is a example of method overloading .
+ 
