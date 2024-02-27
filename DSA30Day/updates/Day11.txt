@@ -1,4 +1,13 @@
 Hi today it's day 11 and here's what I've learned :
 
-Encapsulation :  So encapsulation basically means doing one thing task using different ways or approach.
+Polymorphism :  So polymorphism basically means many ways to represent a single entity . 
 ____________
+
+poly means : many
+morphism means : ways to represent
+
+--> polymorphism is a greek word.
+
+Every OOP language should have polymorphism .
+
+It occurs during Inheritance.
