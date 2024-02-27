@@ -11,3 +11,8 @@ morphism means : ways to represent
 Every OOP language should have polymorphism .
 
 It occurs during Inheritance.
+
+For Example : 
+
+So we are creating many classes with same definition of area that will be accessed via the objects created from 
+different classes that will ensure the usage of that same area function in different ways.
