@@ -5,9 +5,10 @@ Types of Polymorphism :
 --> Compile-time or Static polymorphism : This type of polymorphism is achieved via method overloading.
   -------------------------------------
 
-  what is mthod overloading ? 
+  what is method overloading ? 
 
-  --> method overloading simply means that when a class have multiple or more than  one function with a same name but different 
+  --> method overloading simply means that when a class have multiple or more than  one function or even constructors  with 
+    a same name but different 
       orders or parameters .
 
 
@@ -20,9 +21,30 @@ Types of Polymorphism :
     
   }
 
-  // SO here are two methods or functions that have the same name but different parameters , one is having no parameter while the other is having 
+  // SO here are two methods or functions that have the same name but different parameters , one is having no parameter 
+   while the other is having 
      two parameters.
 
 
   --  This is a example of method overloading .
+
+
+  The reason why it is called compile-time or static 
+  polymorphism because java determines that which method or 
+  constructor     should be used or displayed.
+
+
+
+ difference b/w methods and functions :
+
+ Functions are independent and does not need any object associated with it while methods are such functions which are being 
+ associated with any objects and stuff.
+
+ SO method is something which is associated with an object while function is not.
+
+
+
+
+
+
  
