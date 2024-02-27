@@ -42,6 +42,8 @@ Types of Polymorphism :
 
  SO method is something which is associated with an object while function is not.
 
+and also in C++ a function which is declared inside of a class is called as a method.
+
 
 
 
