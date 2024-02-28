@@ -1,0 +1,19 @@
+Hi it's Day13 and Here's what I've learned  : 
+
+
+-- types of polumorphism continues : 
+
+(ii) Runtime polymorphism / Dynamic polymorphism :
+
+  note : This type of polymorphism is achieved by method overriding.
+
+so method overriding basically means that whenever there is a method inside of a child class that
+have the exact same name as the one which is present in the parent or the base class( everything is same : just the body is different )
+
+
+
+
+
+
+
+ 
