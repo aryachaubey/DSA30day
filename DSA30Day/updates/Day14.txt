@@ -21,7 +21,79 @@ Now , How Java knows about  which method to call?
 Java resolves the issue of which method to call with a concept known as DYNAMIC METHOD DISPATCH .
                                                                         _______________________
 
- Example  :
+public class Shapes {
+
+@override
+void area() {
+  sout("I am inside Shapes ");
+ }
+}
+
+public class Circles extends Shapes {
+
+ void area(){
+ sout("Area of circle is pi*r*r");
+  } 
+}
+
+ Example  : Shapes shape = new Circle();
+
+ Here Shapes is the parent class and Circle is the child class , but they both have a common method named area() with diffrent body .
+
+   Note :  the reference variable depends upon the type of the parent class while , method overriding depends upon the object of the child class.
+
+ : 
+
+Here , when we do this :
+
+shape.area();
+
+then output : Area of circle is pi*r*r
+
+that means the method area of the parent class Shapes is being overriden with the area method of the child class Circle.
+
+
+which implies the method overriding depends upon the type of the object.
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+(i) Final Keyword with Method Ovrloading : 
+    ------------------------------------
+
+ If we use final keyword with a method and try to override it then java will show an error
+
+
+ @Override 
+
+final public class Shapes { 
+  void area(){
+ sout("I am inside the Shapes")
+ }
+
+that implies final methods cannot be overriden .
+
+ --------------------------------------------------------------------------------------------------------
+
+(ii) Static Keyword with Method Overloading : 
+     --------------------------------------
+
+ if we are making a method static then we cannot override it  .
+
+ Reason :
+
+  Method overriding depends upon the objects
+  Static methods does not depends upon the objects .
+  Hence, Static methods cannot be overriden .
+
+ 
+
+
+
+
+
+
 
  
 
