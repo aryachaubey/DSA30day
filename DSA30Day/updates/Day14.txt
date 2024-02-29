@@ -1,0 +1,27 @@
+Hi its Day14 and Here's what I've learned : 
+
+Internal implementation of method overriding that helps in achieving the dynamic polymorphism : 
+
+ So we may know that method overriding basically means that whenever a parent or the base class have a same method with same name , argumets 
+ and return type with just the body of those methods different and when that method is called using the object type of the child class and the reference  variable 
+ of the type of parent class then that child method overrides the content of the parent class's method content .
+
+This is called Method Overriding , Both Method overriding and overloading just applies upon methods only and not on the instance variables.
+
+
+why it is called Dynamic polymorphism : 
+
+Because , the resolution of the issue that which method should called and with what content should a method should be overrided is resolved at the Runtime instead of the 
+compile time by the Java.
+
+Now , How Java knows about  which method to call? 
+
+:
+
+Java resolves the issue of which method to call with a concept known as DYNAMIC METHOD DISPATCH .
+                                                                        _______________________
+
+ Example  :
+
+ 
+
