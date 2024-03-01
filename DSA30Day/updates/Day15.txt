@@ -36,6 +36,11 @@ Abstraction is solving an design level issue and the encapsulation is solving an
 level issue.
 
 Abstraction focuses on external stuffs while Encapsulation focuses on the internal implementation.
+
+Abstraction is a process information
+Encapsulation is the process of containing the information.
+
+
  
 
  
