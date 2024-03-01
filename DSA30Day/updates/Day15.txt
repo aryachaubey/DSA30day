@@ -1,0 +1,50 @@
+Hi it's Day15 and Here's what I've learned : 
+
+Encapsulation : Encapsulation basically means wrapping up the implementation of the 
+                data member and methods in a class.
+
+It basically hides up the code and the data into a single entity so that it can be
+secured  or protetcted from the outside world.
+
+mostly , encapsulation is confused with the abstraction .
+
+while ,
+
+Abstarction : Abstarcrion is just hiding details & sharing the valuable information.
+___________
+
+For example : when we start the car we just use the key to start it without knowing about the mechanics of a car starting ,
+              that means we are not caring about the unncessary information of how to start a car but just starting it what we know
+              and is important to start the car.
+
+This  can be a real -world example of an abstraction , In which the uneccessary data is being hidden by the java .
+
+
+One such thing is there which is known as  abstarct data types in which we  we create their reference variables and just use the methods of 
+that datatype or class without bothering about the internal implementation of that method.
+
+
+
+Now engineers work upon the internall implementation of these abstract datatypes and create such methods or properties through which 
+they are able to provide abstraction  . 
+
+
+
+Difference  B/w Abstarction and Encapsulation :
+
+Abstraction is solving an design level issue and the encapsulation is solving an implementation 
+level issue.
+
+Abstraction focuses on external stuffs while Encapsulation focuses on the internal implementation.
+ 
+
+ 
+
+
+
+
+
+
+                
+
+ 
