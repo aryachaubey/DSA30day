@@ -87,4 +87,20 @@ but if any class from any other package is trying to access that data member tha
 
 
 
+(iii) protected : 
+
+if a data member is protected then : 
+
+--> we can access it inside the class it is initialized.
+--> we can access it inside the other classes of that 
+    package.
+--> in subclasses
+--> but not in differnet packages and not subclasses.
+
+
+
+ 
+
+
+
 
