@@ -1,0 +1,90 @@
+Hi it's Day 16 and Here's what I've learned  :
+
+Access modifiers : 
+
+Under access control in Java there are three access modifiers that we need to know : 
+
+(i) public : 
+
+If we are making any data member public that means we can access that data member in any other class also or 
+basically anywhere.
+
+ for  Example : 
+
+ class A{ 
+
+  public int a;
+  int b;
+
+  }
+
+class Main { 
+
+public static void main()  {
+
+ A a = new A ();
+
+ a.a = 12;
+  }
+}
+sout(a) ; 
+ output  : 12 
+
+So , here we are able to access and modify the value of a which is a data member of the class A because it is specified as a 
+     public member .
+
+
+
+(ii)  private :
+
+   The next type of access modifier is private . SO , By any chance if we are making any data member of a class private that 
+   basically means that we cannot access that member anywhere else instead inside the particular class in which it has been initialized.
+
+
+For Example : 
+
+ class A  {
+
+ private int a ;
+ int b; 
+
+ public void getnum (){
+
+   this.a = 25;
+  return a;
+   }
+
+  }
+
+
+class Main { 
+
+public static void main()  {
+
+ A a  = new A();
+
+a.a = 24;   // now this line is going to give us an error because we have already specified our data member to be a private member so we 
+              cannot use it inside our main  class.
+
+
+sout(a.getnum());   // but this thing is going to work because in this we are trying to access the value of that data member through a getter function\
+                      which itself is a public member .
+
+  }
+
+}
+
+
+
+
+Now one more interesting thing  :
+
+ Now what if we do not specify anything to any data member than who is gonna have the access control over those data members ? 
+
+So , If we have'nt specified the access of a particular data member than only the classes inside a same package can access those data members,
+
+but if any class from any other package is trying to access that data member than java will flash us an error.
+
+
+
+
