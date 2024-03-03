@@ -6,3 +6,28 @@ there are two types of packages  -->
 
  -- user-defined packages : packages or folders that a user creates on their own afterwards.
  -- in-built packages : packages or folders that has been previously created by the java language itself.
+
+
+In-built packages : 
+_________________
+
+ there are some inbuilt packages in java that have different functionalties :
+
+(i) lang package : lang package is a folder that contains all the necessary essential stuffs of the java , it has all the  
+                   java language specific stuf. for examples the operations we do - + / - and all
+
+(ii) io package : io package is the folder that contains all the input-output classes that is used to for all the reading 
+                  and writing stuff , and also things like buffer reading and all.
+
+(iii) util package : util package is the folder that is named as the utility package that contains all the important data 
+                     structure related stuffs and the collection frameworks.
+
+(iv) applet package : this package is the folder that uses classes for the development purpose , basically the servlets and 
+                      all things .
+
+(v) awt package  : applet package is the folder that consists of the classes that are used for creating graphical interfaces
+                   like buttons , basically the GUI applications and stuffs.
+
+(vi) net package : net package is the folder in java that contains all the classes that are useful for networking purpose, 
+                   like all the networking operations and all. 
+
