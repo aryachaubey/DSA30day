@@ -1,0 +1,8 @@
+Hi its Day 17 and here's what I've learned :
+
+A little more about packages :
+
+there are two types of packages  -->
+
+ -- user-defined packages : packages or folders that a user creates on their own afterwards.
+ -- in-built packages : packages or folders that has been previously created by the java language itself.
