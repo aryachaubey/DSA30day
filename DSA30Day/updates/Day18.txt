@@ -1,0 +1,7 @@
+Hi It's Day18 and here's what I've learned :
+
+some well -known methods inside the object class that can be overridden :
+
+--> hashCode() - this method basically gives the hash numerical representation of an object.
+
+--> 
