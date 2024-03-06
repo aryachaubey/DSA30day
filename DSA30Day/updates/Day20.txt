@@ -10,7 +10,16 @@ syntax of converting a method into an abstarct methods
 
  abstract void career (String name ) ;
 
-  --> these abstract methods are usually reffered as the responsibilties of the child classes because the parent class does not have anycontent
+  --> these abstract methods are usually reffered as the responsibilties of the child classes because the parent class does not have any content
     or the body for the abstarct method.
+
+ If a class is containing any one or more than one abstract methods then that class is also considered as an abstract class.
+
+One more thing : Every child class needs to override the content of the abstarct methods which has been initialized in the parent class.
+
+
+
+
+
 
 
