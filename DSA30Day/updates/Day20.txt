@@ -1,0 +1,16 @@
+Hi it's Day20 and Here's what I've learned :
+
+
+Abstract methods : when we are just creating a function or method with only the definition of it without specifying the content of 
+                   its body and their body is completely dependent upon their child classes then such methods are called as abstract  
+                   classes .
+
+
+syntax of converting a method into an abstarct methods 
+
+ abstract void career (String name ) ;
+
+  --> these abstract methods are usually reffered as the responsibilties of the child classes because the parent class does not have anycontent
+    or the body for the abstarct method.
+
+
